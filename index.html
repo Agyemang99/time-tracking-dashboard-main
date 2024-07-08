@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+</head>
+<body>
+  <div class="dash-board">
+    <div class="profile">
+
+      <div class="info">
+        <img src="./images/image-jeremy.png" alt="Jeremy-img">
+        <div class="info-description">
+          <p>Report for</p>
+          <h2>Jeremy Robson</h2>
+        </div> 
+      </div>
+      <div class="select-section">
+        <button id="btn-1" type="submit">Daily</button>
+        <button id="btn-2" type="submit">Weekly</button>
+        <button id="btn-3" type="submit">Monthly</button>
+      </div>
+
+    </div>
+
+    
+
+    <div class="work-container">
+      <div class="work-image">
+        <img src="./images/icon-work.svg" alt="work-icon">
+      </div>
+      <div class="time-description">
+        <div>
+          <h4>Work</h4>
+          <h1><span id="crnt-1">32</span>hrs</h1>
+        </div>
+        <div>
+          <button id="work-btn" type="button">...</button>
+          <p>Last Week- <span id="prv-1"> 36hrs</span> </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="play-container">
+      <div class="play-image">
+        <img src="./images/icon-play.svg" alt="play-icon">
+      </div>
+      <div class="time-description">
+        <div>
+          <h4>Play</h4>
+          <h1><span id="crnt-2">10</span>hrs</h1>
+        </div>
+        <div>
+          <button id="play-btn" type="button">...</button>
+          <p>Last Week- <span id="prv-2">8</span>hrs</p>
+        </div> 
+      </div> 
+    </div>
+
+    <div class="study-container">
+      <div class="study-image">
+        <img src="./images/icon-study.svg" alt="study-icon">
+      </div>
+      <div class="time-description">
+        <div>
+          <h4>Study</h4>
+          <h1><span id="crnt-3">4</span>hrs</h1>
+        </div>
+        <div>
+          <button id="study-btn" type="button">...</button>
+          <p>Last Week- <span id="prv-3">7</span>hrs</p> 
+        </div>
+        
+      </div>
+      
+    </div>
+
+    <div class="exercise-container">
+      <div class="exercise-image">
+        <img src="./images/icon-exercise.svg" alt="exercise-icon">
+      </div>
+      <div class="time-description">
+        <div>
+          <h4>Exercise</h4>
+          <h1><span id="crnt-4">4</span>hrs</h1>
+        </div>
+        <div>
+          <button id="exercise-btn" type="button">...</button>
+          <p>Last Week- <span id="prv-4">5</span>hrs</p>
+        </div>
+        
+      </div>
+      
+    </div>
+
+    <div class="social-container">
+      <div class="social-image">
+        <img src="./images/icon-social.svg" alt="social-icon">
+      </div>
+      <div class="time-description">
+        <div>
+          <h4>Social</h4>
+          <h1><span id="crnt-5">10</span>hrs</h1>
+        </div>
+        <div>
+          <button id="exercise-btn" type="button">...</button>
+          <p>Last Week- <span id="prv-5">10</span>hrs</p>
+        </div>
+        
+      </div>
+      
+    </div>
+
+    <div class="self-care">
+      <div class="self-image">
+        <img src="./images/icon-self-care.svg" alt="self-care-icon">
+      </div>
+      <div class="time-description">
+        <div>
+          <h4>Self Care</h4>
+          <h1><span id="crnt-6">2</span>hrs</h1>
+        </div>
+        <div>
+          <button id="self-btn" type="button">...</button>
+          <p>Last Week- <span id="prv-6">2</span>hrs</p>
+        </div>
+      </div>
+      
+    </div>
+
+
+
+  </div>
+
+ 
+  
+  <script  src="./project.js"></script>
+
+</body>
+</html>
